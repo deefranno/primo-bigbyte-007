@@ -205,10 +205,64 @@
       </style>
     </div>
 
+    <div class="block" id="block-qkpdi">
+      <div class="primo-component" id="component-qkpdi">
+        <div>
+          <header class="container">
+            <nav class="tabs">
+              <ul class="primary">
+                <li>
+                  <a href="#story"> Our Story </a>
+                </li>
+                <li>
+                  <a href="#history"> History </a>
+                </li>
+                <li>
+                  <a href="#instructors"> Instructors </a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+        </div>
+      </div>
+      <style type="text/css">
+        #component-qkpdi {
+          padding: 1rem 0;
+          border-bottom: 1px solid #eee;
+        }
+          #component-qkpdi header {
+            display: flex;
+          }
+          #component-qkpdi header nav {
+              display: flex;
+              margin: 1rem 0;
+            }
+          #component-qkpdi header nav ul {
+                display: flex;
+                flex-direction: column;
+              }
+          #component-qkpdi header nav ul li a {
+                    font-weight: 600;
+                    margin-left: 2rem;
+                    -webkit-text-decoration: underline transparent;
+                            text-decoration: underline transparent;
+                  }
+          #component-qkpdi header nav ul li a:hover {
+                      -webkit-text-decoration-color: var(--color-accent, #222);
+                              text-decoration-color: var(--color-accent, #222);
+                    }
+          @media (min-width: 900px) {
+                #component-qkpdi header .tabs ul {
+                  flex-direction: row;
+                }
+          }
+      </style>
+    </div>
+
     <div class="block" id="block-dfdym">
       <div class="primo-component" id="component-dfdym">
         <div>
-          <ul class="container">
+          <ul class="container" id="story">
             <li>
               <figure>
                 <img
@@ -319,7 +373,7 @@
     <div class="block" id="block-fubqe">
       <div class="primo-component" id="component-fubqe">
         <div>
-          <main class="container">
+          <main class="container" id="history">
             <div class="heading">Our History</div>
             <div class="timeline">
               <div>
@@ -465,7 +519,7 @@
     <div class="block" id="block-lgxyn">
       <div class="primo-component" id="component-lgxyn">
         <div>
-          <section class="container">
+          <section class="container" id="instructors">
             <h2 class="heading">Our Instructors</h2>
             <div class="cards">
               <a href="#" class="card">
